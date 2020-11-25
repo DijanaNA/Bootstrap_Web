@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #8271e2e8, #ee3636f3);
+    --light-gray: rgba(255, 255, 255, 0.877);
+  }
+
+
+*{
+margin: 0;
+padding: 0;
+font-family:var(--Sniglet-font) ;
+box-sizing: border-box;
+}
+
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:bisque;
+}
+
+.about-section{
+background-image: url("../img/hatice-yardim-nW-cD1TSBwQ-unsplash.jpg");
+background-repeat: repeat-y;
+background-size: 55%;
+overflow: hidden;
+padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    padding: 150px;
+    background-color: antiquewhite;
+    padding: 150px;
+}
+
+.inner-container h1{
+margin-bottom: 30px;
+font-size: 30px;
+font-weight: 900;
+
+}
+
+.text{
+    font-size: 13px;
+    color: gray;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding:0;
+
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+.active-cyan-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    text-align: center;
+  }
+  .aria-label{
+      text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
